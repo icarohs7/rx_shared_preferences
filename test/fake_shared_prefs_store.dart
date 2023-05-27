@@ -76,4 +76,14 @@ class FakeSharedPreferencesStore implements SharedPreferencesStorePlatform {
     log.add(MethodCall('setValue', [valueType, key, value]));
     return backend.setValue(valueType, key, value);
   }
+
+  @override
+  Future<bool> clearWithPrefix(String prefix) {
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Map<String, Object>> getAllWithPrefix(String prefix) {
+    throw UnimplementedError();
+  }
 }
