@@ -21,9 +21,9 @@ topics:
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.1.2
-  rx_storage: ^3.0.0
-  meta: ^1.7.0
+  shared_preferences: '>=2.1.2'
+  rx_storage: '>=3.0.0'
+  meta: '>=1.7.0'
 
 dev_dependencies:
   flutter_test:
